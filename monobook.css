@@ -1,0 +1,107 @@
+/* if only there was a way to edit this in an external IDE, then save it, and i can see it in my browser, but knowing
+that this isnt an actual file, im not entirely sure if thats actually possible. */
+
+/* ids */
+
+#firstHeading, h2  {
+	font-family: cambria, times new roman, serif;
+}
+#mw-content-text {
+	font-size: 13px;
+	font-family: georgia, Garamond, ms ui gothic, sans-serif;
+}
+body {
+	
+	font-family: georgia, Garamond, ms ui gothic, sans-serif;
+}
+#p-personal {
+	font-family: comic sans ms, sans-serif, cursive;
+	font-weight: bold;
+}
+#sidebar {
+	font-family: comic sans ms, trebuchet ms, cursive;
+}
+#siteSub {
+	font-family: fira code, monospace;
+}
+
+/* #p-personal */
+
+body.skin--responsive #p-personal ul li {
+	background-image: linear-gradient(to top,#c0c0c0,#fff);
+	border: solid 1px;
+	padding:0 .2em .2em .2em;
+	border-radius: 0 0 5px 5px;
+	border-color: #b0b0b0;
+	border-top: none;
+
+}
+body.skin--responsive #p-personal ul li:hover {
+	box-shadow: 0 0 2px 2px #abcdef;
+	border-color: #b0b0b0;
+	/*background-image: linear-gradient(to top,#abcdef,#def);*/
+}
+
+body.skin--responsive #p-personal ul li:active {
+	background-image: linear-gradient(to bottom,#d0d0d0,#fff);
+}
+body.skin--responsive #p-personal ul li a:hover {
+	background-color: transparent;
+}
+
+/* #p-cactions */
+
+body.skin--responsive #p-cactions {
+	font-family: arial black, arial, sans-serif;
+	font-weight: bold;
+	top: 2.6em;
+}
+body.skin--responsive #p-cactions .pBody {
+    font-size: 1em;
+    background-color: transparent;
+    color: inherit;
+    border-collapse: inherit;
+    padding: 0 0 0 0;
+}
+body.skin--responsive #p-cactions .selected {
+	border: solid 2px;
+	border-color: #ffaa00;
+}
+
+/* classes*/
+ 
+.pBody {
+	border-radius:0 5px 5px 0;
+}
+body.skin--responsive .mw-body {
+	border-radius: 5px 0 0 5px;
+	margin-top: 4.2em;
+}
+
+/* elements */
+
+pre, code {
+	font-family: fira code, consolas, courier new, monospace;
+}
+button, select, input[type="button"], input[type="submit"], input[type="search"], input[type="text"] {
+	border: solid 1px ;
+    padding: 2px 5px ;
+    border-radius: 5px;
+    border-color: #b0b0b0;
+    font-family: inherit; /* first time ever using 'inherit', and it worked like a friggin' charm B) */
+}
+input[type="search"], input[type="text"] {
+	box-shadow: inset 0 0.1em 0.2em #ddd;
+}
+button, input[type="button"], input[type="submit"] {
+    background-color: #efefef ;
+    color: #000 ;
+    cursor: pointer;
+    background-image: linear-gradient(to top,#d0d0d0,#ffffff);
+}
+button:hover, input[type="button"]:hover, input[type="submit"]:hover {
+    box-shadow: 0 0 2px 2px #abcdef;
+}
+button:active, input[type="button"]:active, input[type="submit"]:active {
+    background-image: linear-gradient(to bottom,#d0d0d0,#ffffff);
+}
